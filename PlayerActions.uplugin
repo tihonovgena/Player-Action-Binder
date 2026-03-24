@@ -1,0 +1,32 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Player Actions Binder",
+	"Description": "The easiest way to manage player pawn actions and inputs.",
+	"Category": "Input",
+	"CreatedBy": "Gennadii Tikhonov",
+	"CreatedByURL": "",
+	"DocsURL": "https://docs.google.com/document/d/1Bfz59fDc1je-f0xGqadbUz_sl2z2XeLdb06RpsamUJ8/edit?usp=sharing",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/1901f5f29cd3459b93482149ac17243b",
+	"SupportURL": "tihonovgenadev@gmail.com",
+	"EngineVersion": "5.7.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "PlayerActions",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		}
+	]
+}
